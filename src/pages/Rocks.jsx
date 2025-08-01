@@ -7,13 +7,13 @@ import rock2 from '../assets/rockimg2.webp';
 const Rocks = () => {
   const RocksData = [
     {
-      id: 1,
+      id: 7,
       title: 'Riverstone',
       description: 'Smooth and naturally polished, Riverstones bring a serene and earthy aesthetic to aquariums or indoor plant bases. Excellent for enhancing substrate appeal and providing a calming natural look.',
       image: rock1,
     },
     {
-      id: 2,
+      id: 8,
       title: 'Lava Rock',
       description: 'Porous and lightweight, Lava Rocks are ideal for aquatic setups and provide excellent surfaces for beneficial bacteria. Their rugged texture adds dramatic character to any arrangement.',
       image: rock2,

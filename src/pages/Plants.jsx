@@ -7,13 +7,13 @@ import plant2 from '../assets/plantimg2.png';
 const Plants = () => {
   const PlantsData = [
     {
-      id: 1,
+      id: 5,
       title: 'Goldplant',
       description: 'A radiant freshwater plant that adds a golden glow to any aquarium or indoor setup. Ideal for beginners and seasoned gardeners alike. Its peaceful nature and vivid hues make it a perfect choice for enhancing visual appeal.',
       image: plant1,
     },
     {
-      id: 2,
+      id: 6,
       title: 'Clownplant',
       description: 'A vibrant and playful plant reminiscent of the ocean’s colorful reefs. Inspired by the Clownfish habitat, this plant thrives in humid environments and adds a splash of character to any plant collection.',
       image: plant2,
