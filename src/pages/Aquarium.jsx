@@ -1,24 +1,24 @@
 import React from 'react';
-import Cards from '../components/cards';
+import Cards from "../components/cards"
 import aquariumBanner from '../assets/Aquariumstanks.png';
-import aquaPlant1 from '../assets/aquariumimg2.png';
-import aquaPlant2 from '../assets/aquariuming1.png';
+import aquaaqua1 from '../assets/aquariumimg2.png';
+import aquaaqua2 from '../assets/aquariuming1.png';
 
 const Aquarium = () => {
-  const aquariumPlants = [
+  const aquariumaquas = [
     {
       id: 1,
       title: 'Anubias Nana',
       description:
-        'A hardy aquatic plant that thrives in low light and adds lush greenery to freshwater aquariums. Perfect for beginners and aquascapers.',
-      image: aquaPlant1,
+        'A hardy aquatic aqua that thrives in low light and adds lush greenery to freshwater aquariums. Perfect for beginners and aquascapers.',
+      image: aquaaqua1,
     },
     {
       id: 2,
       title: 'Java Fern',
       description:
-        'A popular aquarium plant with wide, flowing leaves. Attaches easily to driftwood and rocks. Low maintenance and ideal for planted tanks.',
-      image: aquaPlant2,
+        'A popular aquarium aqua with wide, flowing leaves. Attaches easily to driftwood and rocks. Low maintenance and ideal for aquaed tanks.',
+      image: aquaaqua2,
     },
   ];
 
@@ -39,20 +39,20 @@ const Aquarium = () => {
       Explore Our Aquarium
     </h2>
     <p className="mt-2 text-white text-sm md:text-base max-w-2xl">
-      Hand-picked aquatic plants to bring life and balance to your underwater world.
+      Hand-picked aquatic aquas to bring life and balance to your underwater world.
     </p>
   </div>
 </div>
 
       {/* Card Grid */}
       <div className="max-w-6xl mx-auto px-4  pt-0 lg:pt-5 md:pt-5 pb-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 place-items-center">
-        {aquariumPlants.map((plant) => (
+        {aquariumaquas.map((aqua) => (
           <Cards
-            key={plant.id}
-            id={plant.id}
-            title={plant.title}
-            description={plant.description}
-            image={plant.image}
+            key={aqua.id}
+            id={aqua.id}
+            title={aqua.title}
+            description={aqua.description}
+            image={aqua.image}
           />
         ))}
       </div>
