@@ -1,5 +1,5 @@
 import React from 'react';
-import Cards from '../components/Cards';
+import Cards from '../components/cards';
 import rockBanner from "../assets/rocks.png"; // update with correct image
 import rock1 from '../assets/rockimg2.webp'; // update with actual rock images
 import rock2 from '../assets/rockimg2.webp';

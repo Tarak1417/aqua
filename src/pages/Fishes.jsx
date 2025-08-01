@@ -1,5 +1,5 @@
 import React from 'react';
-import Cards from '../components/Cards';
+import Cards from '../components/cards';
 import fishbanner from "../assets/fishBanner.png";
 import fish1 from "../assets/fish1.png";
 import fish2 from "../assets/fish2.png";
