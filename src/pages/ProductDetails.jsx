@@ -1,14 +1,19 @@
 import React from 'react';
 import { useLocation, useParams } from 'react-router-dom';
 
+
 const ProductDetails = () => {
   const { id } = useParams();
   const { state } = useLocation();
-  const { title, description, image } = state || {};
 
-  if (!state) {
-    return <p className="p-10 text-red-500">No product data found.</p>;
+  // Either from state or fallback using ID lookup
+  const product = state || allProducts.find((item) => item.id === Number(id));
+
+  if (!product) {
+    return <p className="p-10 text-red-500">Product not found.</p>;
   }
+
+  const { title, description, image } = product;
 
   return (
     <div className="p-10">

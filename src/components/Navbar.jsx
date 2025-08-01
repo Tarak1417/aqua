@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -13,10 +14,10 @@ const Navbar = () => {
         {/* Desktop Nav */}
         <ul className="hidden md:flex items-center space-x-8 md:pl-28">
          
-          <li className="hover:text-blue-500 cursor-pointer" ><a href="/">fishes</a></li>
-          <li className="hover:text-blue-500 cursor-pointer"><a href="/plants">pants</a></li>
-          <li className="hover:text-blue-500 cursor-pointer"><a href="/aquarium">aqarium</a></li>
-          <li className="hover:text-blue-500 cursor-pointer"><a href="/rocks">rocks</a></li>
+         <li><Link to="/">Fishes</Link></li>
+<li><Link to="/plants">Plants</Link></li>
+<li><Link to="/aquarium">Aquarium</Link></li>
+<li><Link to="/rocks">Rocks</Link></li>
         </ul>
 
         {/* Desktop Button */}
@@ -43,12 +44,11 @@ const Navbar = () => {
           }`}
         >
           <ul className="flex flex-col space-y-4 text-lg">
-          <li className="hover:text-blue-500 cursor-pointer"><a href="/">fishes</a></li>
-          <li className="hover:text-blue-500 cursor-pointer"><a href="/plants">pants</a></li>
-          <li className="hover:text-blue-500 cursor-pointer"><a href="/aquarium">aqarium</a></li>
-          <li className="hover:text-blue-500 cursor-pointer"><a href="/rocks">rocks</a></li>
-          </ul>
-
+         <li><Link to="/">Fishes</Link></li>
+<li><Link to="/plants">Plants</Link></li>
+<li><Link to="/aquarium">Aquarium</Link></li>
+<li><Link to="/rocks">Rocks</Link></li>
+</ul>
           <button
             type="button"
             className="bg-white text-gray-600 border border-gray-300 mt-6 text-sm hover:bg-gray-50 active:scale-95 transition-all w-40 h-11 rounded-full"

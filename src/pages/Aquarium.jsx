@@ -7,14 +7,14 @@ import aquaaqua2 from '../assets/aquariuming1.png';
 const Aquarium = () => {
   const aquariumaquas = [
     {
-      id: 1,
+      id: 3,
       title: 'Anubias Nana',
       description:
         'A hardy aquatic aqua that thrives in low light and adds lush greenery to freshwater aquariums. Perfect for beginners and aquascapers.',
       image: aquaaqua1,
     },
     {
-      id: 2,
+      id: 4,
       title: 'Java Fern',
       description:
         'A popular aquarium aqua with wide, flowing leaves. Attaches easily to driftwood and rocks. Low maintenance and ideal for aquaed tanks.',
